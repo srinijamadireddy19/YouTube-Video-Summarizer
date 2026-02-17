@@ -1,0 +1,11 @@
+youtube-transcript-api
+tiktoken
+langchain
+langchain-text-splitters 
+python-dotenv
+groq
+fastapi
+uvicorn
+pydantic
+Flask==3.0.0
+flask-cors==4.0.0
