@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "private": true,
-  "proxy": "http://localhost:8000",
+  "proxy": "https://you-tube-video-summarizer-khaki.vercel.app/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
