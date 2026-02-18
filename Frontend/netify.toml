@@ -1,6 +1,7 @@
 # Netlify Configuration for VidBrief Frontend
 
 [build]
+  base = "frontend"
   # Build command
   command = "npm run build"
   
@@ -47,4 +48,5 @@
 [[headers]]
   for = "/service-worker.js"
   [headers.values]
+
     Cache-Control = "no-cache"
