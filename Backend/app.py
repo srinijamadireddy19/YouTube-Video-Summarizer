@@ -8,7 +8,7 @@ app.include_router(router)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173","https://6996a6de6816c9a5b112acde--vidbrief.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -19,4 +19,5 @@ handler = Mangum(app)
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="localhost", port=8000)
+
 
