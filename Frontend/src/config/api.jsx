@@ -5,7 +5,7 @@ const API_CONFIG = {
   // Base URL for the API
   // In development, this will use the proxy defined in package.json
   // In production, set this to your actual API URL
-  BASE_URL: "https://you-tube-video-summarizer-khaki.vercel.app" ,
+  BASE_URL: "https://you-tube-video-summarizer-khaki.vercel.app/api" ,
   
   // API Endpoints
   ENDPOINTS: {
@@ -18,4 +18,5 @@ const API_CONFIG = {
 
 
 export default API_CONFIG;
+
 
